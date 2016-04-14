@@ -211,11 +211,19 @@ function create_config( )
     "onservice",
     "Y",
     "X",
-    "Z",
     "W",
+    "U",
+    "B",
+    "Y2",
+    "X2",
+    "W2",
+    "U2",
+    "B2",
+    "Spam",
+    "Join",
     "Plugins"
     },
-    sudo_users = {44444046},--Sudo users
+    sudo_users = {133615072},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
@@ -309,7 +317,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 44444046
+our_id = 133615072
 now = os.time()
 math.randomseed(now)
 started = false
