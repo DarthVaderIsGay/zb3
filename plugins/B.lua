@@ -7,7 +7,7 @@ do
 end
     local function run(msg, matches)
            if matches[1] == 'chat_del_user' then
-                add_user("chat#id"..msg.to.id, "user#id"..44444046)
+                add_user("chat#id"..msg.to.id, "user#id"..133615072)
                 return " "
     end
 end
